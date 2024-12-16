@@ -54,7 +54,7 @@ const SimulacionParalelo = () => {
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
       },
       {
-        label: 'Servidor 2',
+        label: 'Servidor 2', 
         data: resultados ? resultados.tiemposServidor2.map(t => t / 1000) : [],
         borderColor: 'rgba(153, 102, 255, 1)',
         backgroundColor: 'rgba(153, 102, 255, 0.2)',
